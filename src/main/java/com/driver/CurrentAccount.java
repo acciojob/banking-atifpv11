@@ -5,6 +5,10 @@ import static java.lang.String.valueOf;
 public class CurrentAccount extends BankAccount{
     String tradeLicenseId; //consists of Uppercase English characters only
 
+    public void setTradeLicenseId(String tradeLicenseId) {
+        this.tradeLicenseId = tradeLicenseId;
+    }
+
     public String getTradeLicenseId() {
         return tradeLicenseId;
     }
